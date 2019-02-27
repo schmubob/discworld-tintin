@@ -24,6 +24,17 @@
 #SUB {It glows brilliant octarine shades} {%0 <858>(Lvl 9)<898>};
 #SUB {It radiates pure octarine brilliance} {%0 <858>(Lvl 10)<898>};
 
+#SUB {They occasionally pulse with octarine light} {%0 <858>(Lvl 1)<898>};
+#SUB {They emit a slight octarine glow} {%0 <858>(Lvl 2)<898>};
+#SUB {They softly pulse in dull octarine shades} {%0 <858>(Lvl 3)<898>};
+#SUB {They give off a steady but dull octarine glow} {%0 <858>(Lvl 4)<898>};
+#SUB {They give off a steady octarine glow} {%0 <858>(Lvl 5)<898>};
+#SUB {They glow an intense octarine} {%0 <858>(Lvl 6)<898>};
+#SUB {They emit a bright octarine colour} {%0 <858>(Lvl 7)<898>};
+#SUB {They brightly pulse octarine} {%0 <858>(Lvl 8)<898>};
+#SUB {They glow brilliant octarine shades} {%0 <858>(Lvl 9)<898>};
+#SUB {They radiate pure octarine brilliance} {%0 <858>(Lvl 10)<898>};
+
 
 #NOP ==[Background Magic Levels]==
 #SUB {There is the residual taste of magic in this place} {%0 <858>(50-149 thaums)<898>};

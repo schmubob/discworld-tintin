@@ -7,7 +7,7 @@
 #CONFIG {MCCP} {ON};
 #CONFIG {LOG} {RAW};
 #CONFIG {BUFFER SIZE} {2000000};
-#config {COMMAND COLOR} {<fcf>}; 
+#config {COMMAND COLOR} {<fcf>};
 
 #SPLIT {2} {1};
 
@@ -27,6 +27,7 @@
 #READ {src/deadletter.tin};
 #READ {src/db.tin};
 #READ {src/magic.tin};
+#READ {src/broom.tin};
 
 #READ {src/missions.tin};
 #READ {src/group.tin};

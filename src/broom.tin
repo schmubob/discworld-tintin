@@ -1,0 +1,13 @@
+#CLASS {broom} {kill};
+#CLASS {broom} {open};
+
+#NOP ==[Fuel highlighting]==
+#SUB {^You shake the broomstick vigorously and from the sloshing inside you guess that there is fuel enough for %1.} {You shake the broomstick vigorously and from the sloshing inside you guess that there is fuel enough for <cfa>%1.};
+#HIGHLIGHT {^You shake the broomstick vigorously and, from the complete lack of sloshing inside, deduce that it's quite empty.} {red underscore};
+
+#NOP ==[Misflight highlighting]==
+#SUB {^Your broomstick splutters a bit, then rests quietly in your hands.} {Your broomstick splutters a bit, then rests quietly in your hands. <fac>(Target doesn't exist)};
+#SUB {^Your broomstick revs up as if ready to go, then falters and goes passive in your hands.} {Your broomstick revs up as if ready to go, then falters and goes passive in your hands. <fac>(No destination set broom slot)};
+#SUB {^Your broomstick splutters a bit, then quivers questioningly.} {Your broomstick splutters a bit, then quivers questioningly. <fac>(Target in no-fly zone)};
+#SUB {confined space.} {confined space. <fac>(Indoors)};
+#SUB {^You are still suffering from jet lag from your previous flight.} {You are still suffering from jet lag from your previous flight. <fac>(Jetlag)}

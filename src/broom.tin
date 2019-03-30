@@ -11,3 +11,5 @@
 #SUB {^Your broomstick splutters a bit, then quivers questioningly.} {Your broomstick splutters a bit, then quivers questioningly. <fac>(Target in no-fly zone)};
 #SUB {confined space.} {confined space. <fac>(Indoors)};
 #SUB {^You are still suffering from jet lag from your previous flight.} {You are still suffering from jet lag from your previous flight. <fac>(Jetlag)}
+
+#CLASS {broom} {close};

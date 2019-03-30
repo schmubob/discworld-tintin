@@ -18,42 +18,13 @@
 
 
 #VAR {talker_channels} {
-    {adventurers}{^(Adventurers)}
-    {amPalaceGuard}{^(Ankh-MorporkPalaceGuard)}
-    {apex}{^(Apex)}
     {assassins}{^(Assassins)}
-    {atuin}{^(A'Tuin)}
     {conlegiumSicariorum}{^(ConlegiumSicariorum)}
     {dead}{^(Dead)}
-    {djelianGuard}{^(DjelianGuard)}
-    {duchessSaturdaysMusketeers}{^(DuchessSaturday'sMusketeers)}
-    {fish}{^(Fish)}
-    {gapp}{^(Gapp)}
-    {gufnork}{^(Gufnork)}
-    {hashishim}{^(Hashishim)}
-    {hat}{^(Hat)}
-    {hublandishBarbarians}{^(HublandishBarbarians)}
-    {hunters}{^(Hunters)}
-    {igame}{^(Igame)}
-    {imperialGuard}{^(ImperialGuard)}
-    {intermud}{^(Intermud)}
-    {klatchianForeignLegion}{^(KlatchianForeignLegion)}
-    {lancreHighlandRegiment}{^(LancreHighlandRegiment)}
-    {manoRossa}{^(ManoRossa)}
-    {ninjas}{^(Ninjas)}
     {one}{^(One)}
     {pishe}{^(Pishe)}
     {playerkillers}{^(Playerkillers)}
-    {playtesters}{^(Playtesters)}
     {priests}{^(Priests)}
-    {quiz}{^(Quiz)}
-    {samurai}{^(Samurai)}
-    {sandelfon}{^(Sandelfon)}
-    {sek}{^(Sek)}
-    {thieves}{^(Thieves)}
-    {two}{^(Two)}
-    {warriors}{^(Warriors)}
-    {weaponMastersCourt}{^(WeaponMasters'Court)}
     {witches}{^(Witches)}
     {wizards}{^(Wizards)}
 };

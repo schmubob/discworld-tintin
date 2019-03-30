@@ -32,6 +32,8 @@
 #READ {src/missions.tin};
 #READ {src/group.tin};
 
+#READ {src/gags.tin};
+
 #SESSION {discworld} {discworld.starturtle.net} {4242};
 
 #FORMAT {log_file} {logs/active/%t.log} {%Y-%m-%d};

@@ -1,0 +1,7 @@
+#CLASS {gags} {kill};
+#CLASS {gags} {open};
+
+#GAG {^A small blue light arrives %1};
+#GAG {^A small blue light precedes you.};
+
+#CLASS {gags} {close};

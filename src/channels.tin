@@ -17,7 +17,7 @@
 #ACTION {^You cre-tell:%1} {#LINE {LOG} {$chat_file}};
 
 
-#VAR {talker_channels} {
+#VARIABLE {talker_channels} {
     {assassins}{^(Assassins)}
     {conlegiumSicariorum}{^(ConlegiumSicariorum)}
     {dead}{^(Dead)}

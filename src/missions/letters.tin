@@ -140,6 +140,8 @@
             #nop Faraway;
             #if {&missions[letter][active_list][$GMCP[charinfo][capname]][far]} { #break; };
             #format {missions[letter][active_list][$GMCP[charinfo][capname]][far]} {%T};
+            #format {time} {Frank - Far away finished at %t.} {%H:%M};
+            #echo {$time};
 
             #line sub variable {
                 #format {delayname} {letter_distant_%s} {$GMCP[charinfo][capname]};
@@ -157,6 +159,8 @@
             #nop Distantland;
             #if {&missions[letter][active_list][$GMCP[charinfo][capname]][distant]} { #break; };
             #format {missions[letter][active_list][$GMCP[charinfo][capname]][distant]} {%T};
+            #format {time} {Frank - Distand land finished at %t.} {%H:%M};
+            #echo {$time};
 
             #line sub variable {
                 #format {delayname} {letter_distant_%s} {$GMCP[charinfo][capname]};

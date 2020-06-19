@@ -57,6 +57,18 @@
 #SUB {^{The fire incinerates} } {%1 <019>(<119>75<019>-<119>90<019>%)<099> };
 #SUB {^{The fire vaporises} }   {%1 <019>(><119>90<019>%)<099> };
 
+#NOP ==[EHA Damage Values]==;
+#SUB {^{The sound grates} }      {%1 <019>(<<119>15<019>%)<099> };
+#SUB {^{The sound hurts} }       {%1 <019>(<119>15<019>-<119>30<019>%)<099> };
+#SUB {^{The horrible sound makes} }       {%1 <019>(<119>60<019>-<119>75<019>%)<099> };
+#SUB {^{The sound makes blood ooze} } {%1 <019>(<119>75<019>-<119>90<019>%)<099> };
+#SUB {^{The sound causes} }   {%1 <019>(><119>90<019>%)<099> };
+
+#SUB {^{The sound makes} }      {%1 <019>(<119>30<019>-<119>60<019>%)<099> };
+
+#NOP ==[KOF bunnies]==;
+#SUB {%1 fire bunnies %2}      {<118>%1 fire bunnies<098><099> %2};
+#SUB {%1 fire bunny %2}      {<118>%1 fire bunny<098><099> %2};
 
 #NOP ==[Replace Spell Casting]==
 #ACTION {^You prepare to cast %1 {at|on} %2.$} { #showme {  * <138>%1<098> -> %2}; #line gag} {3}

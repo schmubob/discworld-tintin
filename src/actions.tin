@@ -1,37 +1,53 @@
 #CLASS {actions} {kill};
 #CLASS {actions} {open};
 
-#NOP ==[TPA Alerts]==
-#HIGHLIGHT {^There is a sudden white flash.  Your magical shield has broken.$} {bold red underscore};
+#HIGHLIGHT {There is a strange distortion in space and time %*} {bold red underscore};
+
+#NOP ==[TPA Alerts]==;
+#HIGHLIGHT {$There is a sudden white flash.  Your magical shield has broken.$} {bold red underscore};
 #HIGHLIGHT {^There is a sudden white flash around {(?!a passing wizard).+}.$} {bold red underscore};
 #ACTION {^There is a sudden white flash around {(?!a passing wizard).+}.$} {
     #showme {\a};
     #line {log} {$chat_file};
 };
 
-#NOP ==[T-Shop Alerts]==
+#HIGHLIGHT {^In blocking the attack the %1 floating around you is knocked out of orbit.$} {bold red underscore};
+#ACTION {^In blocking the attack the %1 floating around you is knocked out of orbit.$} {
+    #showme {\a};
+    #line {log} {$chat_file};
+};
+
+#NOP ==[T-Shop Alerts]==;
 #HIGHLIGHT {Greasy sparks crawl over the %1 wall, and a door silently materialises.} {bold green underscore};
 #HIGHLIGHT {There is a doorway in the %1 wall leading into a curious shop.} {bold green underscore};
  
-#NOP ==[Incident Highlighting]==
+#NOP ==[Incident Highlighting]==;
 #HIGHLIGHT {^%1 grabs %2 from you.  You struggle briefly but %3 wrests it from your grip and makes for a hasty retreat.$} {bold red underscore};
 #HIGHLIGHT {^As %1 dies %2 drops %3 in shock.$} {bold green underscore};
 #HIGHLIGHT {^When you open the %1 you think you can hear a faint rumbling sound from it.$} {red underscore}; 
 #HIGHLIGHT {^Whoops!  You tried to carry too many things and fumbled %1} {red underscore};
 #HIGHLIGHT {%1 juggles around his stuff and fumbles %2} {red underscore}; 
 
-#NOP ==[Command Color Highlighting]==
+#NOP ==[Command Color Highlighting]==;
 #SUB {%w %w with a total of %* item} {<148>%1 %2<099> with a total of <148>%3<099> item};
 
-#NOP ==[Truffle Found]==
+#NOP ==[Truffle Found]==;
 #HIGHLIGHT {The young truffle pig unearths a truffle from the ground.} {bold green};
 
-#NOP ==[Attention Soul(s)]==
+#NOP ==[Attention Soul(s)]==;
 #ACTION {^{(?!Ryattenoki).+} tugs on your sleeve in a desperate attempt to get some attention.$} {
     #showme {\a};
 };
+#SUB {%1 Royal Guard%2} {%1 <119>Royal Guard<019><099>%2};
+#SUB {%1 Royal Guards%2} {%1 <119>Royal Guard<019><099>%2};
+#SUB {%1 watchman%2} {%1 <119>watchman<019><099>%2};
+#SUB {%1 watchmen%2} {%1 <119>watchmen<019><099>%2};
+#SUB {%1 Imperial guard%2} {%1 <119>Imperial Guard<019><099>%2};
+#SUB {%1 Imperial guards%2} {%1 <119>Imperial Guards<019><099>%2};
+#SUB {%1 city guard%2} {%1 <119>city guard<019><099>%2};
+#SUB {%1 city guards%2} {%1 <119>city guards<019><099>%2};
 
-#NOP ==[Copperhead Mines]==
+#NOP ==[Copperhead Mines]==;
 #SUB {you think that %1 of the surrounding crates contain} {you think that <138>%1<099> of the surrounding crates contain};
 #HIGHLIGHT {Something doesn't smell right.  You take a sniff but the faint odour of rotten eggs makes you cough.} {bold green underscore};
 #HIGHLIGHT {Somewhere above you, you hear the rumble of falling rock.} {bold green underscore};
@@ -42,18 +58,18 @@
     #showme {\a};
 };
 
-#NOP ==[Gemcutting/Finesmithing]==
+#NOP ==[Gemcutting/Finesmithing]==;
 #HIGHLIGHT {You take the diamond-tipped chisel from your roll of gemcutting tools and delicately chip %1} {bold green};
 #HIGHLIGHT {You take the diamond-tipped chisel from your roll of gemcutting tools and chip away %1} {bold red};
 #HIGHLIGHT {You take the diamond-tipped chisel from your roll of gemcutting tools and, struggling with %1} {bold red};
 
-#NOP ==[Kick Consortium]==
+#NOP ==[Kick Consortium]==;
 #ACTION {^It is your turn to fight... enter the combat ring.$} {
     #showme {\a};
 }
 
 
-#NOP ==[End Session On Quit]==
+#NOP ==[End Session On Quit]==;
 #ACTION {Thanks for playing.  See you next time.} {
     #end;
 }

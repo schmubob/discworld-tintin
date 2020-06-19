@@ -3,5 +3,6 @@
 
 #GAG {^A small blue light arrives %1};
 #GAG {^A small blue light precedes you.};
+#GAG {^You cannot put the blue crystal ring in a pocket in the large backpack because you are wearing it.};
 
 #CLASS {gags} {close};
